@@ -1,52 +1,108 @@
-# 🕌 Sakinah: Islamic Counseling App for Muslim Teens
 
-**Sakinah** is a React Native mobile app that offers a supportive and gamified Islamic experience for Muslim teens. Through personalized guidance, interactive scenarios, Qur’an reminders, and Islamic education, the app helps teens manage emotions and strengthen their deen in a fun, meaningful way.
+# 🌸 Sakinah — Islamic Counseling App for Muslim Teens
 
----
-
-## ✨ Features
-
-- 🔐 **Login & Authentication**  
-  Secure username/password login screen.
-
-- 🧠 **Personalization Quiz**  
-  Short onboarding quiz to tailor the user’s experience based on emotional and spiritual needs.
-
--
-
-
-- 🎮 **Gamified Simulation**  
-  Points-based interaction system that rewards users for making positive choices and watching Islamic content.
-
-- 📖 **Interactive Scenarios**  
-  Real-life dilemmas (e.g., Jummah laziness, parental arguments, peer pressure) with reflection and quiz options.
-
-- 📿 **Qur'an & Sunnah Reminders**  
-  Short videos and ayahs displayed based on context to encourage spiritual growth.
+**Sakinah** is a gamified mobile application designed to support the emotional and spiritual well-being of Muslim teens. The app blends self-reflection, Islamic guidance, and scenario-based learning in a fun, engaging way that feels personalized, relevant, and safe.
 
 ---
 
-## 📱 Screens
+## 👥 Team Members
 
-| Screen                | Description                                            |
-|-----------------------|--------------------------------------------------------|
-| `LoginScreen`         | Simple login form                                      |
-| `PersonalizationQuiz` | 3-question onboarding quiz                             |
-| `CharacterCustomization` | Pick your visual character (placeholder layout)     |
-| `GameDashboard`       | View points, unlock new reminders and challenges       |
-| `QuranReminder`       | Shows daily verse and short Islamic videos             |
-| `ScenarioScreen`      | Branching situation-based questions with feedback      |
-| `VideoPlayer`         | Plays 40-second Islamic YouTube reminders              |
+| Name                | Role                          |
+| Mariam                  | slides |
+| Tasneem                 | slides & design                |
+| Zaina                  | Designer for figma app demo using relit   |
+| Tasbih               | Demo narrator, slides       |
+| Emira               | Mentor, coder, figma lead desinger  |
 
 ---
 
-## 🛠️ Tech Stack
+## ❗ Problem Statement
+
+Many Muslim teens struggle with managing emotions, relationships, and identity in a way that aligns with their faith. Existing mental health apps often ignore Islamic values or are not designed with cultural sensitivity.
+
+---
+
+## ✅ Our Solution
+
+Sakinah offers:
+- Safe, guided scenarios reflecting real teen challenges
+- Faith-centered decision-making tools
+- Qur’anic and Sunnah reminders embedded in context
+- Gamified learning with point systems and character personalization
+
+The app is currently themed around **Muslim teen girls**, but it’s built to scale for broader audiences, including Muslim boys, in future updates.
+
+---
+
+## 🧰 Tech Stack
+
+- **React Native** (built via [Expo](https://expo.dev))
 - **React Navigation**
-- **WebView** for YouTube video integration
-- **Snack**-friendly for online development (no install needed!)
+- **React Native WebView** (for embedded YouTube reminders)
+- **Snack** ([https://snack.expo.dev](https://snack.expo.dev)) for online development and testing
+- **Figma** (for UI/UX design)
+- **Open-source** resources for accessibility standards and Islamic content
 
 ---
 
-## 🚀 Getting Started please use scan the qr code and follow instructions for the best experience
+## 🚀 Setup Instructions
 
+To run the app locally:
 
+1. Install Expo CLI (if you haven’t already):
+   ```bash
+   npm install -g expo-cli
+````
+
+2. Clone this repository or open the Snack version:
+
+   * [Live Snack Demo] https://snack.expo.dev/@esali/sakinah
+
+3. Start the project:
+
+   ```bash
+   expo start
+   ```
+
+4. Scan the QR code to open in the Expo Go mobile app or run in web preview.
+
+---
+
+## 📹 Demo Videos & Links
+
+* 🎮 [Live App Demo (it is better if you download your app)
+* download the app (based on step 2 instructions): https://snack.expo.dev/@esali/sakinah
+* web version: https://tinyurl.com/SakinahLiveDemo-Web
+* 
+* 📺 [Video Walkthrough of the figma protoype (YouTube)] https://www.youtube.com/watch?v=3vXwnLQi31A
+
+---
+
+## 🧩 Key Features
+
+* 🔐 **Login Page** – Secure entry to begin reflection journey
+* 🧠 **Personalization Quiz** – Tailors the experience to your mood and goals
+* 🧍‍♀️ **Character Customization** – Avatars for a personal, fun experience
+* 🧪 **Scenario-Based Decisions** – Like a game, but grounded in Islamic values
+* 🎥 **Qur’an & Sunnah Reminders** – Short, embedded videos + ayah overlays
+* 💬 **Reward System** – Earn points for wise choices and personal growth
+
+---
+
+## ♿ Accessibility Considerations
+
+* High-contrast, readable fonts
+* Screen reader–friendly labels and layouts
+* Low-cognitive-load navigation
+* Theme color (pink) can be changed for inclusivity
+* Future support for voice, Arabic translation, and male character paths
+
+---
+
+## 📈 Future Plans
+
+* Firebase login integration
+* Data-driven mood tracking
+* Arabic/English toggle
+* More scenarios, for both boys and girls
+* Better journaling and reflection tools
