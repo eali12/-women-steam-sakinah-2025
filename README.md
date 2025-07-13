@@ -47,24 +47,19 @@ The app is currently themed around **Muslim teen girls**, but it’s built to sc
 
 ## 🚀 Setup Instructions
 
-To run the app locally:
+To run the app:
 
-1. Install Expo CLI (if you haven’t already):
-   ```bash
-   npm install -g expo-cli
-````
-
-2. Clone this repository or open the Snack version:
+1. Clone this repository or open the Snack version:
 
    * [Live Snack Demo] https://snack.expo.dev/@esali/sakinah
 
-3. Start the project:
+2. Start the project:
 
    ```bash
    expo start
    ```
 
-4. Scan the QR code to open in the Expo Go mobile app or run in web preview.
+3. Scan the QR code to open in the Expo Go mobile app or run in web preview.
 
 ---
 
